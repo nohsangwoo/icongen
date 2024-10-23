@@ -17,9 +17,16 @@ IconGen is a simple, yet powerful web service that allows users to effortlessly 
 
 # preview
 
-![alt text](image.png) ![alt text](image-1.png) ![alt text](image-2.png)
+<p float="left">
+  <img src="image.png" width="30%" />
+  <img src="image-1.png" width="30%" /> 
+  <img src="image-2.png" width="30%" />
+</p>
 
-![alt text](image-3.png) ![alt text](image-4.png)
+<p float="left">
+  <img src="image-3.png" width="30%" />
+  <img src="image-4.png" width="30%" />
+</p>
 
 # sitemap: https://icongen.ludgi.ai/sitemap.xml
 
