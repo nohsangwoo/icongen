@@ -1,4 +1,7 @@
 import { MetadataRoute } from 'next'
+
+export const dynamic = 'force-static'
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = process.env.SITE_URL || 'https://icongen.ludgi.ai'
   const staticUrls: MetadataRoute.Sitemap = [
