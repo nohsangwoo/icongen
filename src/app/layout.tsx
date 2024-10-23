@@ -15,37 +15,38 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Multi-Format Image Converter | Free Online Tool",
-  description: "Convert images between WebP, PNG, JPEG, BMP, GIF, and TIFF formats for free. Privacy-focused online tool with no server uploads for safe and fast conversions.",
+  title: "App Icon Generator | Free Online Tool for iOS, Android, and Favicon",
+  description: "Create app icons for iOS, Android, and favicon.ico easily with our free online tool. Generate multiple sizes and formats without uploading to servers, ensuring privacy and speed.",
   keywords: [
-    // 한국어 키워드
-    "이미지 포맷 변환, WebP 변환, PNG 변환, JPEG 변환, BMP 변환, GIF 변환, TIFF 변환, 온라인 이미지 변환, 개인정보 보호, 서버리스 변환, 무료 이미지 도구",
     // 영어 키워드
-    "image format converter, convert to WebP, convert to PNG, convert to JPEG, convert to BMP, convert to GIF, convert to TIFF, online image conversion, privacy-focused, serverless conversion, free image tool",
+    "app icon generator, iOS icon maker, Android icon creator, favicon generator, app icon resizer, mobile app icon, app store icon, play store icon, app icon design, free icon tool",
+    // 한국어 키워드
+    "앱 아이콘 생성기, iOS 아이콘 제작, 안드로이드 아이콘 만들기, 파비콘 생성기, 앱 아이콘 리사이징, 모바일 앱 아이콘, 앱스토어 아이콘, 플레이스토어 아이콘, 앱 아이콘 디자인, 무료 아이콘 도구",
     // 중국어 키워드
-    "图像格式转换器, 转换为WebP, 转换为PNG, 转换为JPEG, 转换为BMP, 转换为GIF, 转换为TIFF, 在线图像转换, 隐私保护, 无服务器转换, 免费图像工具",
+    "应用图标生成器, iOS图标制作, 安卓图标创建, favicon生成器, 应用图标调整大小, 移动应用图标, 应用商店图标, Play商店图标, 应用图标设计, 免费图标工具",
     // 일본어 키워드
-    "画像フォーマット変換, WebPに変換, PNGに変換, JPEGに変換, BMPに変換, GIFに変換, TIFFに変換, オンライン画像変換, プライバシー保護, サーバーレス変換, 無料画像ツール",
+    "アプリアイコンジェネレーター, iOSアイコン作成, Androidアイコン作成, ファビコン生成, アプリアイコンリサイズ, モバイルアプリアイコン, アプリストアアイコン, プレイストアアイコン, アプリアイコンデザイン, 無料アイコンツール",
     // 러시아어 키워드
-    "конвертер форматов изображений, конвертировать в WebP, конвертировать в PNG, конвертировать в JPEG, конвертировать в BMP, конвертировать в GIF, конвертировать в TIFF, онлайн конвертация изображений, защита конфиденциальности, бессерверное преобразование, бесплатный инструмент для изображений"
+    "генератор иконок приложений, создание иконок для iOS, создание иконок для Android, генератор favicon, изменение размера иконок приложений, иконки для мобильных приложений, иконки для App Store, иконки для Play Store, дизайн иконок приложений, бесплатный инструмент для создания иконок"
   ].join(", "),
   openGraph: {
-    title: "Multi-Format Image Converter - Supporting WebP, PNG, JPEG, BMP, GIF, TIFF",
-    description: "Free online image conversion tool focused on privacy. Safely convert between WebP, PNG, JPEG, BMP, GIF, and TIFF formats without server uploads.",
+    title: "App Icon Generator - Create Icons for iOS, Android, and Favicon",
+    description: "Free online tool to generate app icons for iOS, Android, and favicon.ico. Create multiple sizes and formats instantly, with privacy-focused, serverless conversion.",
     images: [
       {
         url: "https://icongen.ludgi.ai/logo.png",
         width: 1200,
         height: 630,
-        alt: "Multi-Format Image Converter",
+        alt: "App Icon Generator Tool",
       },
     ],
     locale: "en_US",
     alternateLocale: ["ko_KR", "zh_CN", "ja_JP", "ru_RU"],
   },
   twitter: {
-    title: "Multi-Format Image Converter - Supporting WebP, PNG, JPEG, BMP, GIF, TIFF",
-    description: "Free online image conversion tool focused on privacy. Safely convert between WebP, PNG, JPEG, BMP, GIF, and TIFF formats without server uploads.",
+    card: "summary_large_image",
+    title: "App Icon Generator - iOS, Android, and Favicon Icon Creator",
+    description: "Create app icons for iOS, Android, and favicon.ico with our free online tool. Generate multiple sizes instantly, no server uploads required.",
   },
   robots: {
     index: true,
@@ -62,7 +63,16 @@ export const metadata: Metadata = {
   //   google: "추후_추가할_구글_인증_코드",
   //   yandex: "추후_추가할_얀덱스_인증_코드",
   // },
-  // ... 기존의 alternates 설정 ...
+  alternates: {
+    canonical: "https://icongen.ludgi.ai",
+    languages: {
+      'en-US': 'https://icongen.ludgi.ai/en-US',
+      'ko-KR': 'https://icongen.ludgi.ai/ko-KR',
+      'zh-CN': 'https://icongen.ludgi.ai/zh-CN',
+      'ja-JP': 'https://icongen.ludgi.ai/ja-JP',
+      'ru-RU': 'https://icongen.ludgi.ai/ru-RU',
+    },
+  },
 };
 
 const pubId = "ca-pub-5823741955283998"
