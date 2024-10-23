@@ -15,6 +15,8 @@ IconGen is a simple, yet powerful web service that allows users to effortlessly 
 
 # deploy: https://icongen.ludgi.ai/
 
+# sitemap: https://icongen.ludgi.ai/sitemap.xml
+
 # preview
 
 <p float="left">
@@ -27,7 +29,3 @@ IconGen is a simple, yet powerful web service that allows users to effortlessly 
   <img src="image-3.png" width="30%" />
   <img src="image-4.png" width="30%" />
 </p>
-
-# sitemap: https://icongen.ludgi.ai/sitemap.xml
-
-# preview
