@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /private/
+
+# Host
+Host: https://icongen.ludgi.ai
+
+# Sitemaps
+Sitemap: https://icongen.ludgi.ai/sitemap.xml
