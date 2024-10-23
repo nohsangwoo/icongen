@@ -65,13 +65,6 @@ export const metadata: Metadata = {
   // },
   alternates: {
     canonical: "https://icongen.ludgi.ai",
-    languages: {
-      'en-US': 'https://icongen.ludgi.ai/en-US',
-      'ko-KR': 'https://icongen.ludgi.ai/ko-KR',
-      'zh-CN': 'https://icongen.ludgi.ai/zh-CN',
-      'ja-JP': 'https://icongen.ludgi.ai/ja-JP',
-      'ru-RU': 'https://icongen.ludgi.ai/ru-RU',
-    },
   },
 };
 
