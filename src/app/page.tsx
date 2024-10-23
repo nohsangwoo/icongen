@@ -8,7 +8,7 @@ import PlatformSelector from './components/PlatformSelector';
 
 export default function Home() {
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
-  const [selectedPlatforms, setSelectedPlatforms] = useState<string[]>([]);
+  const [selectedPlatforms, setSelectedPlatforms] = useState<string[]>(['iOS', 'Android', 'Favicon', 'Web', 'watchOS', 'macOS', 'iPad']);
 
   const handleFileUpload = (file: File) => {
     setSelectedFile(file);
