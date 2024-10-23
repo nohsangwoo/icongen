@@ -18,4 +18,3 @@ IconGen is a simple, yet powerful web service that allows users to effortlessly 
 # sitemap: https://icongen.ludgi.ai/sitemap.xml
 
 # preview
-# icongen
